@@ -19,6 +19,5 @@ def solution(arr):
     return answer
 
 if __name__== "__main__":
-    arr = input().split()
-    numbers = [int(i) for i in arr]
+    numbers = [int(i) for i in input().split()]
     print(solution(numbers))
